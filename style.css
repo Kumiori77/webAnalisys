@@ -11,6 +11,36 @@ a:visited{
 a:link{
     text-decoration: none;
     color: black;
+    
+}
+
+section a:hover{
+    font-size: 1.2em;
+    color: aquamarine;
+}
+header > div{
+    width: 70%;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-bottom: 1em;
+}
+
+header li{
+    padding : 0.5em 2em;
+    font-size: 1.2em;
+    background-color:aquamarine;
+    border-radius: 1em;
+    
+}
+#home {
+    background-color: cornflowerblue;
+}
+
+header li:hover{
+    font-size: 1.5em;
 }
 
 body{
@@ -23,6 +53,7 @@ body{
 }
 h1{
     font-size: 1.7em;
+    display: inline;
 }
 section{
     font-size: 2em;
